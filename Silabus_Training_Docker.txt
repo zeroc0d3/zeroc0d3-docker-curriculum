@@ -1,0 +1,68 @@
+Silabus DOCKER
+=========================
+------
+DAY-01
+------
+
+** DOCKER **
+1. Arsitektur Docker
+2. Perbedaan Docker & VM
+3. Instalasi Docker Cli (Linux)
+4. Membuat Dockerfile sederhana
+   *) Official repository image "FROM" Docker Hub
+   *) Distribusi Ubuntu
+   *) Distribusi Alpine
+5. Running Dockerfile (membuat container dengan proses `docker build`)
+6. Membuat public repository Docker registry
+7. Push container ke docker registry (`docker push`)
+8. Unit Test Docker Container, Test Development Driven (TDD)
+   *) TDD Minitest (Ruby)
+   *) TravisCI
+9. Advanced Dockerfile (Multistage Builder)
+
+
+** DOCKER COMPOSE **
+1. Instalasi Docker Compose Cli (Linux)
+2. Membuat docker-compose.yml sederhana
+3. Alokasi IP Address (statis) di docker-compose.yml
+4. Binding (overide)
+   *) Binding Port
+   *) Binding Volume
+   *) Binding Environment
+5. Advanced Docker Compose
+   *) Linking Container
+   *) Depends Container
+   *) Menggunakan environment variable (.env)
+
+
+------
+DAY-02
+------
+** DOCKER FRAMEWORK **
+1. Desain Pattern Docker-Compose, menggunakan pattern "Dockerframework"
+   https://github.com/dockerframework
+2. Monitoring Docker Container
+   *) Healthycheck (Uptime)
+   *) CPU, IO, Disk
+3. Integrasi Alert & Logging System
+   *) Prometheus
+   *) Grafana
+   *) AlertManager
+   *) Slack Notification
+
+
+------
+DAY-03
+------
+** DOCKER SWARM (ORCHESTRATION) **
+1. Arsitektur Docker Swarm
+2. Membuat Aplikasi Docker Swarm
+3. Pack Aplikasi Docker
+   *) Laravel PHP Framework
+   *) MariaDB / MySQL
+   *) Redis
+4. Deploy Docker Swarm
+5. Integrasi GitLab CI/CD (GitOps)
+***** Bonus *****
+6. Docker Swarm vs Kubernetes (K8S)
+7. Deploy Container K8S (Minikube)
